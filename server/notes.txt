@@ -1,0 +1,18 @@
+Neded to add new PATH (C:\Program Files\PostgreSQL\13\bin) to  in windows env (control panel advansed links settings, or search for envs)
+
+
+
+
+WARNING: Console code page (437) differs from Windows code page (1252)
+         8-bit characters might not work correctly. See psql reference
+         page "Notes for Windows users" for details.
+
+SOLUTION: cmd.exe /c chcp 1252  before psql comand
+
+
+/*Change password*/
+
+postgres=# \password
+Enter new password:
+Enter it again:
+postgres=#
